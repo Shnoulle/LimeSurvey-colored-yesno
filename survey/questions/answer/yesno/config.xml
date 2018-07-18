@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+    <!-- Those metadata will be displayed in the template configuration page. They are not used for now. -->
+    <metadata>
+        <name>ColoredYesNo</name>
+        <creationDate>2018-07-18</creationDate>
+        <author>Denis Chenu</author>
+        <authorEmail>denis@sondages.pro</authorEmail>
+        <authorUrl>https://sondages.pro</authorUrl>
+        <license>MIT</license>
+        <version>1.0</version>
+        <apiVersion>1</apiVersion>
+        <description>Some color to Yes no question</description>
+    </metadata>
+
+    <!--
+        Here the list of the css/js files to load.
+        Any file here will be loaded via the asset manager (when in config.php debug = 0)
+    -->
+    <files>
+        <css>
+            <filename>coloredyesno.css</filename>
+        </css>
+        <js>
+        </js>
+    </files>
+
+    <!-- Here datas about how LimeSurvey should load the core js/css of the question -->
+    <engine>
+        <load_core_css>true</load_core_css>
+        <load_core_js>true</load_core_js>
+        <show_as_template>true</show_as_template>
+        <show_as_question_type>true</show_as_question_type>
+    </engine>
+</config>
